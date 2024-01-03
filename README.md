@@ -1,2 +1,3 @@
-# haru.filechecker
+# Haru.FileChecker
+
 File integrity scanning.

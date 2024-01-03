@@ -1,0 +1,19 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Debug",
+			"type":"coreclr",
+			"request": "launch",
+			"preLaunchTask": "dotnet: build (debug)",
+			"program": "${workspaceFolder}/Haru.FileChecker.Example/bin/Debug/net8.0/win-x64/Haru.FileChecker.Example.dll",
+			"cwd": "${workspaceFolder}/Haru.FileChecker.Example/bin/Debug/net8.0/win-x64/",
+			"console": "internalConsole",
+			"stopAtEntry": false,
+			"internalConsoleOptions": "openOnSessionStart",
+			"logging": {
+				"moduleLoad": false
+			}
+		}
+	]
+}

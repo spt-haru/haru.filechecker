@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>6.0</LangVersion>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>haru.filechecker</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>Merijn Hendriks</Authors>
+    <Company>Project Haru</Company>
+    <PackageDescription>File integrity scanning.</PackageDescription>
+    <RepositoryUrl>https://github.com/spt-haru/haru.filechecker</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Haru.Hashing" HintPath="..\references\haru\Haru.Hashing.dll" />
+    <Reference Include="Haru.IO" HintPath="..\references\haru\Haru.IO.dll" />
+    <Reference Include="Haru.Pools" HintPath="..\references\haru\Haru.Pools.dll" />
+    <Reference Include="Haru.Shared" HintPath="..\references\haru\Haru.Shared.dll" />
+  </ItemGroup>
+
+</Project>
